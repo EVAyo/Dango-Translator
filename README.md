@@ -1,8 +1,8 @@
 # 团子翻译器 - 基于OCR的生肉翻译软件
 
 
-[![最新版本](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-v6.1.3-ff69b4)](https://github.com/PantsuDango/Dango-Translator)
-[![更新时间](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4-2025--10--21-ff69b4)]()
+[![最新版本](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-v6.1.4-ff69b4)](https://github.com/PantsuDango/Dango-Translator)
+[![更新时间](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4-2025--10--31-ff69b4)]()
 [![操作系统](https://img.shields.io/badge/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-win7--11-ff69b4)]()
 [![GitHubStars](https://img.shields.io/github/stars/PantsuDango/Dango-Translator)]()
 [![GitHubForks](https://img.shields.io/github/forks/PantsuDango/Dango-Translator)]()
@@ -22,43 +22,39 @@
 + 另有图片翻译功能, 实现对生肉漫画图片自动识别、翻译、消字、嵌字
 
 
+## 仓库代码维护说明
+
+自 4.5.8 版本后, 团子翻译器换成了 Golang 完全重构了，因为完全换语言重写了，因此 Python 版本的代码不再更新。
+为了方便大家下载最新版本，此仓库还是会正常在首页说明里更新版本信息。
+如您有 Golang 版本的开发需求，可通过交流群直接与我沟通联系。
+
 
 ## 使用教程
 
-[翻译器使用文档教程](https://dango-docs-v6.ap-sh.starivercs.cn/)
+[翻译器使用文档教程](https://dango-docs.ap-sh.starivercs.cn/)
 
 ## 安装版下载
 
 - 群文件下载: [![群号](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E4%BA%A4%E6%B5%81%E7%BE%A4-6%E7%BE%A4434137389-ff69b4)](https://github.com/PantsuDango/ImageHub/blob/master/DangoTranslate/public/qrcode_1759602480385.jpg)  
 - 官网下载: [下载地址](https://translator.dango.cloud)
 - 网盘下载: [夸克网盘](https://pan.quark.cn/s/eb5663a0edf2)
-- Github Releases: [v6.1.3](https://dango-static-cm.starivercs.cn/resources/translator/DangoTranslator-v6.1.3-%E7%AE%80%E6%98%93%E7%89%88.exe)
+- 直链下载: [v6.1.4](https://dango-static-cm.starivercs.cn/resources/translator/DangoTranslator-v6.1.4-%E7%AE%80%E6%98%93%E7%89%88.exe)
 
 ## 更新日志
 [![最新版本](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-v6.1.3-ff69b4)]()
 [![更新时间](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4-2025--10--21-ff69b4)]()
+
+版本号：6.1.4
+#### 更新时间 2025/10/31
+1. 优化在线AI大模型的翻译逻辑, 修复开启上下文时导致的某些缺陷;      
+2. 修正deepseek的api地址;      
+3. 开启漫画翻译笔刷填涂时, 提示用户非100%缩放比例下操作笔刷填涂会影响译图分辨率;
 
 版本号：6.1.3
 #### 更新时间 2025/10/21
 1. 优化漫画翻译日语以外语种的识别效果, 日语以外语种现在会调用新的漫画ocr模型;      
 2. 将翻译历史按钮加回到翻译框工具栏上;      
 3. 调整了翻译框高度自适应文本的逻辑, 现在翻译框默认会随译文内容自适应高度. 若需要固定翻译框高度, 可于实时翻译-显示设定-翻译框设定里调节;
-
-版本号：6.1.2
-#### 更新时间 2025/10/18
-1. 修复点击翻译框工具栏的分开/覆盖按钮会导致软件崩溃的问题;      
-
-#### 版本号：6.1.1
-#### 更新时间 2025/10/17
-
-1. 在线OCR搭载了更强大的识别模型, 识别能力大大提升;
-2. 移除了翻译框和范围框碰撞提示;
-3. 优化了翻译框界面, 将语种选择和贴图模式放置翻译框界面;
-4. 优化了贴图(覆盖)译文的各种效果;
-5. 修复本地ocr、朗读等下载时会失败的问题;
-6. 翻译框高度新增支持不自动随文本改变;
-7. 漫画翻译新增高质量消除模型, 可在设置里开启;
-8. 还优化修复各种已知问题; 
 
 
 ## 原理说明
