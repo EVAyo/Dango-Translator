@@ -41,8 +41,8 @@
 - 直链下载: [v6.1.4](https://dango-static-cm.starivercs.cn/resources/translator/DangoTranslator-v6.1.4-%E7%AE%80%E6%98%93%E7%89%88.exe)
 
 ## 更新日志
-[![最新版本](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-v6.1.3-ff69b4)]()
-[![更新时间](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4-2025--10--21-ff69b4)]()
+[![最新版本](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-v6.1.4-ff69b4)]()
+[![更新时间](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4-2025--10--31-ff69b4)]()
 
 版本号：6.1.4
 #### 更新时间 2025/10/31
