@@ -38,7 +38,7 @@
 - 群文件下载: [![群号](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E4%BA%A4%E6%B5%81%E7%BE%A4-6%E7%BE%A4434137389-ff69b4)](https://github.com/PantsuDango/ImageHub/blob/master/DangoTranslate/public/qrcode_1759602480385.jpg)  
 - 官网下载: [下载地址](https://translator.dango.cloud)
 - 网盘下载: [夸克网盘](https://pan.quark.cn/s/eb5663a0edf2)
-- 直链下载: [v6.1.4](https://dango-static-cm.starivercs.cn/resources/translator/DangoTranslator-v6.1.4-%E7%AE%80%E6%98%93%E7%89%88.exe)
+- Github Releases: [v6.1.4](https://github.com/PantsuDango/Dango-Translator/releases/tag/Ver6.1.4)
 
 ## 更新日志
 [![最新版本](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-v6.1.4-ff69b4)]()
